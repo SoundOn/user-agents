@@ -1421,4 +1421,20 @@
     info_url: "https://podverse.fm"
     description: "The Podverse feed parser."
     developer_notes: "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
+  - 
+    user_agents: 
+      - "^KKBOX/.*?iOS"
+    app: "KKBOX"
+    device: "phone"
+    os: "ios"
+    examples: 
+      - "KKBOX/7.10.10/iOS/11.4"
+  - 
+    user_agents: 
+      - "^KKBOX/.*?Android"
+    app: "KKBOX"
+    device: "phone"
+    os: "android"
+    examples: 
+      - "KKBOX/6.5.10 (Linux;Android 9) ExoPlayerLib/2.4.1"
 
