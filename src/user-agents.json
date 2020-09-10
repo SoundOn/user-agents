@@ -83,7 +83,8 @@
             "de.danoeh.antennapod/1.7.3b (Linux;Android 8.0.0) ExoPlayerLib/2.9.3"
         ],
         "info_url": "https://github.com/AntennaPod/AntennaPod",
-        "os": "android"
+        "os": "android",
+        "developer_notes": "The de.danoeh version was used when streaming only, and will been phased out as of v2"
     },
     {
         "user_agents": [
@@ -322,6 +323,18 @@
     },
     {
         "user_agents": [
+          "BroadwayPodcastNetwork/iOS"
+        ],
+        "app": "Broadway Podcast Network",
+        "description": "The Broadway Podcast Network iOS App",
+        "device": "phone",
+        "examples": [
+          "BroadwayPodcastNetwork/iOS"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
             "^Cast(?:b|B)ox/.+Android"
         ],
         "app": "CastBox",
@@ -417,13 +430,33 @@
         ],
         "app": "Deezer",
         "device": "phone",
-        "os": "android"
+        "os": "android",
+        "examples": [
+            "Deezer/6.2.2.80 (Android; 9; Mobile; fr) samsung SM-G950F",
+            "Deezer/6.2.3.96 (Android; 10; Mobile; fr) samsung SM-A405FN"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=deezer.android.app"
+    },
+    {
+        "user_agents": [
+            "^Deezer/.*CFNetwork/"
+        ],
+        "app": "Deezer",
+        "os": "ios",
+        "examples": [
+            "Deezer/8.13.0.4 CFNetwork/1125.2 Darwin/19.4.0"
+        ],
+        "info_url": "https://apps.apple.com/us/app/deezer-music-podcast-player/id292738169"
     },
     {
         "user_agents": [
             "^Deezer"
         ],
-        "app": "Deezer"
+        "app": "Deezer",
+        "examples": [
+            "Deezer/4.20.0 (Electron; windows/10.0.18362; Desktop; fr)",
+            "Deezer/4.20.0 (Electron; osx/10.14.6; Desktop; fr)"
+        ]
     },
     {
         "user_agents": [
@@ -791,9 +824,30 @@
     },
     {
         "user_agents": [
-            "^iHeartRadio/"
+            "^iHeartRadio/.*Android"
         ],
-        "app": "iHeartRadio"
+        "app": "iHeartRadio",
+        "os": "android",
+        "examples": [
+            "iHeartRadio/9.19.0 (Android 10; SM-G960U Build/QP1A.190711.020)",
+            "iHeartRadio/9.19.0 (Android 9; SM-G950U Build/PPR1.180610.011)"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.clearchannel.iheartradio.controller"
+    },
+    {
+        "user_agents": [
+            "^iHeartRadio/.* CFNetwork/",
+            "^iHeartRadio/.* iOS"
+        ],
+        "app": "iHeartRadio",
+        "os": "ios",
+        "examples": [
+            "iHeartRadio/2020052002 CFNetwork/1125.2 Darwin/19.4.0",
+            "iHeartRadio/9.20.0 (iPhone; iOS 13.4.1; iPhone11,8)",
+            "iHeartRadio/9.20.0 (iPad; iOS 13.4.1; iPad6,12)",
+            "iHeartRadio/9.7.0 (iPod touch; iOS 12.4.5; iPod7,1)"
+        ],
+        "info_url": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154"
     },
     {
         "user_agents": [
@@ -856,6 +910,33 @@
     },
     {
         "user_agents": [
+            ".*KAIOS/"
+        ],
+        "app": "KAIOS podcast app",
+        "device": "phone",
+        "os": "kaios",
+        "info_url": "https://kaiostech.com",
+        "examples": [
+            "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
+        ],
+        "developer_notes": "This is a standard useragent for KaiOS, the cut-down operating system for mobile phones in developing countries. Watch out - it may also contain Android."
+    },
+    {
+        "user_agents": [
+            ".*PodLP/"
+        ],
+        "app": "PodLP podcast app for KaiOS",
+        "device": "phone",
+        "os": "kaios",
+        "info_url": "https://podlp.com",
+        "examples": [
+            "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5 PodLP/1.3.2.0"
+        ],
+        "description": "PodLP is the first podcast app available for KaiOS smart feature phones on the KaiStore.",
+        "developer_notes": "Introduced in version v1.2.0.0 for limited content (downloads); available for all content after v1.3.0.0"
+    },
+    {
+        "user_agents": [
             "^Laughable.+iOS"
         ],
         "app": "Laughable",
@@ -877,24 +958,28 @@
     },
     {
         "user_agents": [
-            "^lamarr-iOS"
+            "^lamarr-iOS",
+            "^TheEconomist-Lamarr-ios"
         ],
         "app": "The Economist",
         "device": "phone",
         "os": "ios",
         "examples": [
-            "lamarr-iOS-2.20.3-116"
+            "lamarr-iOS-2.20.3-116",
+            "TheEconomist-Lamarr-ios-2.22.2-12002"
         ]
     },
     {
         "user_agents": [
-            "^lamarr-android"
+            "^lamarr-android",
+            "^TheEconomist-Lamarr-android"
         ],
         "app": "The Economist",
         "device": "phone",
         "os": "android",
         "examples": [
-            "lamarr-android-2.18.1-21810"
+            "lamarr-android-2.18.1-21810",
+            "TheEconomist-Lamarr-android-2.22.2-12002"
         ]
     },
     {
@@ -1111,10 +1196,16 @@
     },
     {
         "user_agents": [
-            "iOS.*The Podcast App/"
+            "iOS.*The Podcast App/",
+            "com.evolve.podcast/"
         ],
         "app": "The Podcast App",
-        "os": "ios"
+        "os": "ios", 
+        "examples": [
+            "podcast/2358 iOS/Version 13.5.1 (Build 017F80) The Podcast App/3.22.1",
+            "com.evolve.podcast/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"
+        ],
+        "developer_notes": "The com.evolve version of the useragent is an error, and has been reported to the developers as a bug. Caution: the beginning of their main useragent is similar to Google Podcasts."
     },
     {
         "user_agents": [
@@ -1145,15 +1236,56 @@
     },
     {
         "user_agents": [
-            "^PodCruncher/"
+            "^PodCruncher/.* CFNetwork/"
         ],
-        "app": "PodCruncher"
+        "app": "PodCruncher",
+        "os": "ios",
+        "examples": [
+            "PodCruncher/3.7.1 CFNetwork/1125.2 Darwin/19.4.0",
+            "PodCruncher/3.7.1 CFNetwork/978.0.7 Darwin/18.7.0"
+        ],
+        "info_url": "https://apps.apple.com/us/app/podcruncher-podcast-player/id421894356"
     },
     {
         "user_agents": [
-            "^Podbean/"
+            "^Podbean/Android App",
+            "^Podbean/Android generic"
         ],
-        "app": "Podbean"
+        "app": "Podbean",
+        "os": "android",
+        "examples": [
+            "Podbean/Android App 7.6.4 (http://podbean.com),1927526fe23b5acf535b3e91b64cee95",
+            "Podbean/Android generic 1.1.2 (http://podbean.com),9376c517335ded9a716022cc1f15c884"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.podbean.app.podcast"
+    },
+    {
+        "user_agents": [
+            "^Podbean/iOS"
+        ],
+        "app": "Podbean",
+        "os": "ios",
+        "examples": [
+            "Podbean/iOS (http://podbean.com) 5.2.0 - 19c4ff292bd09cd2ccbad22cc6755a45"
+        ],
+        "info_url": "https://apps.apple.com/us/app/podbean-podcast-app-player/id973361050"
+    },
+    {
+        "user_agents": [
+            "^Podhero/"
+        ],
+        "app": "Podhero",
+        "bot": true,
+        "info_url": "https://podhero.com",
+        "description": "Podhero feed crawler. Supports websub."
+    },
+    {
+        "user_agents": [
+            "^Podhero/"
+        ],
+        "app": "Podhero",
+        "info_url": "https://podhero.com",
+        "description": "Podhero app on iOS and Android."
     },
     {
         "user_agents": [
@@ -1161,6 +1293,41 @@
         ],
         "app": "Podkicker Pro",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "PodLink"
+        ],
+        "app": "PodLink",
+        "info_url": "https://pod.link/faq/crawler"
+    },
+    {
+        "user_agents": [
+            "^PodMN/Android"
+        ],
+        "description": "Minnesota Podcasts Live Here",
+        "examples": [
+            "PodMN/Android 1.2.6 (Android 7.1.1; SM-J510FN Build/NMF26X)"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.podmn.app",
+        "app": "PodMN",
+        "device": "phone",
+        "os": "android",
+        "svg": "podmn.svg"
+    },
+    {
+        "user_agents": [
+            "^PodMN/iOS"
+        ],
+        "description": "Minnesota Podcasts Live Here",
+        "examples": [
+            "PodMN/iOS 1.2.6 (iPhone XR/13.6.1)"
+        ],
+        "info_url": "https://apps.apple.com/us/app/podmn/id1464935818",
+        "app": "PodMN",
+        "device": "phone",
+        "os": "ios",
+        "svg": "podmn.svg"
     },
     {
         "user_agents": [
@@ -1382,6 +1549,16 @@
     },
     {
         "user_agents": [
+            "Sonnet"
+        ],
+        "app": "Sonnet",
+        "description": "Sonnet is a simple, easy to use podcast app aimed at new listeners",
+        "os": "android",
+        "info_url": "https://sonnet.fm",
+        "svg": "sonnet.svg"
+    },    
+    {
+        "user_agents": [
             "Sonos"
         ],
         "app": "Sonos",
@@ -1450,7 +1627,8 @@
         "user_agents": [
             "^Swoot/"
         ],
-        "app": "Swoot"
+        "app": "Swoot",
+        "description": "Renamed to Podhero in June 2020"
     },
     {
         "user_agents": [
@@ -1460,13 +1638,57 @@
     },
     {
         "user_agents": [
+            "^TuneIn Radio/.*;Android"
+        ],
+        "examples": [
+            "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4"
+        ],
+        "app": "TuneIn Radio",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=tunein.player"
+    },
+    {
+        "user_agents": [
+            "^TuneIn Radio Pro/.*;Android"
+        ],
+        "examples": [
+            "TuneIn Radio Pro/23.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.10.7"
+        ],
+        "app": "TuneIn Pro",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=radiotime.player"
+    },
+    {
+        "user_agents": [
+            "^TuneIn(%20| )Radio/.*(CFNetwork/|iPhone)"
+        ],
+        "examples": [
+            "TuneIn Radio/1366 CFNetwork/1121.2.2 Darwin/19.3.0",
+            "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
+            "TuneIn%20Radio/1383 CFNetwork/1125.2 Darwin/19.4.0"
+        ],
+        "app": "TuneIn Radio",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/tunein-radio-live-news-music/id418987775"
+    },
+    {
+        "user_agents": [
+            "^TuneIn(%20| )Radio(%20| )Pro/.*CFNetwork/"
+        ],
+        "examples": [
+            "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0",
+            "TuneIn%20Radio%20Pro/1383 CFNetwork/1125.2 Darwin/19.4.0"
+        ],
+        "app": "TuneIn Pro",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
+    },
+    {
+        "user_agents": [
             "^TuneIn"
         ],
         "examples": [
-            "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4",
-            "TuneIn Radio/1366 CFNetwork/1121.2.2 Darwin/19.3.0",
-            "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
-            "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0"
+            "TuneIn Radio"
         ],
         "app": "TuneIn Radio",
         "info_url": "https://tunein.com/",
@@ -1657,5 +1879,62 @@
             "^SoundOn/[\\d\\.]+\\s+\\(bot"
         ],
         "bot": true
+    },
+    {
+      "user_agents": [
+        "^Podverse/Android Mobile App/"
+      ],
+      "app": "Podverse Android Mobile App",
+      "device": "phone",
+      "os": "android",
+      "info_url": "https://play.google.com/store/apps/details?id=com.podverse&hl=en_US",
+      "description": "Open source podcast catcher for Android, with clip-sharing, playlists, device syncing and more.",
+      "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/Android Mobile App/ user agent."
+    },
+    {
+      "user_agents": [
+        "^Podverse/iOS Mobile App/"
+      ],
+      "app": "Podverse iOS Mobile App",
+      "device": "phone",
+      "os": "ios",
+      "examples": [
+        "Podverse/iOS Mobile App/Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/1234"
+      ],
+      "description": "Open source podcast catcher for iOS, with clip-sharing, playlists, device syncing and more.",
+      "info_url": "https://apps.apple.com/us/app/podverse/id1390888454",
+      "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/iOS Mobile App/ user agent."
+    },
+    {
+      "user_agents": [
+        "^Podverse/Feed Parser"
+      ],
+      "bot": true,
+      "app": "Podverse Server-Side Feed Parser",
+      "info_url": "https://podverse.fm",
+      "description": "The Podverse feed parser.",
+      "developer_notes": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
+    },
+    {
+        "user_agents": [
+            "^KKBOX/.*?iOS"
+        ],
+        "app": "KKBOX",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "KKBOX/7.10.10/iOS/11.4"
+        ]
+    },
+    {
+        "user_agents": [
+            "^KKBOX/.*?Android"
+        ],
+        "app": "KKBOX",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "KKBOX/6.5.10 (Linux;Android 9) ExoPlayerLib/2.4.1"
+        ]
     }
 ]
