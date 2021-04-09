@@ -2581,5 +2581,27 @@
         "examples": [
             "KKBOX/6.5.10 (Linux;Android 9) ExoPlayerLib/2.4.1"
         ]
+    },
+    {
+        "user_agents": [
+            "^MixerBox/.*iOS"
+        ],
+        "app": "MixerBox",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "MixerBox/806.iOS (iPhone; iOS 14.5; zh_TW)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^MixerBox/.*Android"
+        ],
+        "app": "MixerBox",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "MixerBox/12.33 (Linux;Android 11) ExoPlayerLib/2.11.1"
+        ]
     }
 ]
