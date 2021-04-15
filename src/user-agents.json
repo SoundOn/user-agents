@@ -291,6 +291,7 @@
             "^Podcast’ler/.*\\(.*\\)",
             "^Podkaster/.*\\(.*\\)",
             "^Podcaster/.*\\(.*\\)",
+            "^Podcast/.*\\(.*\\)",
             "^Podcastok/.*\\(.*\\)",
             "^Подкасти/.*\\(.*\\)",
             "^Подкасты/.*\\(.*\\)",
@@ -322,6 +323,7 @@
             "^Podcast’ler/.*\\d$",
             "^Podkaster/.*\\d$",
             "^Podcaster/.*\\d$",
+            "^Podcast/.*\\d$",
             "^Podcastok/.*\\d$",
             "^Подкасти/.*\\d$",
             "^Подкасты/.*\\d$",
@@ -2371,14 +2373,6 @@
         "info_url": "https://podverse.fm",
         "description": "The Podverse feed parser.",
         "developer_notes": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
-    },
-    {
-        "user_agents": [
-            "^Podcast/1."
-        ],
-        "app": "小宇宙",
-        "info_url": "https://www.coolapk.com/apk/app.podcast.cosmos",
-        "description": "Cosmos, a chinese podcast app"
     },
     {
         "user_agents": [
