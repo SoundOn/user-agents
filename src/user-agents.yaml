@@ -136,6 +136,7 @@
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*iPod"
+    app: "Apple Podcasts"
     device: "mp3_player"
     examples: 
       - "AppleCoreMedia/1.0.0.16G114 (iPod touch; U; CPU OS 12_4_2 like Mac OS X; en_us)"
@@ -147,6 +148,7 @@
       - "^AppleCoreMedia/1\\..*Macintosh"
     examples: 
       - "AppleCoreMedia/1.0.0.19A583 (Macintosh; U; Intel Mac OS X 10_15; en_us)"
+    app: "Apple Podcasts"
     device: "pc"
     os: "macos"
     description: "AppleCoreMedia library"
@@ -154,6 +156,7 @@
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*iPhone"
+    app: "Apple Podcasts"
     device: "phone"
     examples: 
       - "AppleCoreMedia/1.0.0.15G77 (iPhone; U; CPU OS 11_4_1 like Mac OS X; en_us)"
@@ -163,6 +166,7 @@
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*iPad"
+    app: "Apple Podcasts"
     device: "tablet"
     examples: 
       - "AppleCoreMedia/1.0.0.17A860 (iPad; U; CPU OS 13_1_2 like Mac OS X; en_us)"
@@ -172,6 +176,7 @@
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*HomePod"
+    app: "Apple Podcasts"
     device: "speaker"
     examples: 
       - "AppleCoreMedia/1.0.0.16G78 (HomePod; U; CPU OS 12_4 like Mac OS X; en_us)"
@@ -181,6 +186,7 @@
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*Apple TV"
+    app: "Apple Podcasts"
     device: "tv"
     examples: 
       - "AppleCoreMedia/1.0.0.17J586 (Apple TV; U; CPU OS 13_0 like Mac OS X; en_us)"
@@ -190,6 +196,7 @@
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*Apple Watch"
+    app: "Apple Podcasts"
     device: "watch"
     os: "watchos"
     description: "AppleCoreMedia library"
