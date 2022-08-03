@@ -276,6 +276,7 @@
     app: "Apple Podcasts"
     description: "The Apple Podcasts app"
     developer_notes: "Used when downloading podcasts (not progressive downloads). This could be on iOS or iPadOS."
+    os: "macos (other)"
     examples: 
       - "Podcasts/1440.4 CFNetwork/1128.0.1 Darwin/19.6.0"
   - 
