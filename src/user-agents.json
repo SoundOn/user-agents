@@ -2605,5 +2605,1624 @@
         "examples": [
             "MixerBox/12.33 (Linux;Android 11) ExoPlayerLib/2.11.1"
         ]
+    },
+    {
+        "user_agents": [
+            "^AirableBot-Podcast"
+        ],
+        "app": "Airable",
+        "info_url": "https://www.airablenow.com/",
+        "examples": [
+            "AirableBot-Podcast/1.0 ( https//www.airablenow.com)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^AlexaMediaPlayer/1\\.",
+            "^AlexaMediaPlayer/16\\.",
+            "^AlexaMediaPlayer/2\\.",
+            "^Echo.*APNG"
+        ],
+        "app": "Alexa-enabled device",
+        "device": "speaker",
+        "os": "alexa",
+        "svg": "amazon.svg",
+        "examples": [
+            "Echo/1.0(APNG)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^AmazonMusic(?!.*iPhone|.*Android|.*iPad)"
+        ],
+        "examples": [
+            "AmazonMusic"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "svg": "amazon.svg"
+    },
+    {
+        "user_agents": [
+            "^AmazonMusic.*iPad"
+        ],
+        "examples": [
+            "AmazonMusic/22.13.3 iPad7,3 CFNetwork/1335.0.3 Darwin/21.6.0"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "os": "ipados",
+        "device": "tablet"
+    },
+    {
+        "user_agents": [
+            "^Android_AudioNow/"
+        ],
+        "app": "Audio Now",
+        "examples": [
+            "Android_AudioNow"
+        ],
+        "info_url": "https://audionow.de/",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Applebot/"
+        ],
+        "bot": true,
+        "info_url": "http://www.apple.com/go/applebot",
+        "description": "Applebot is the web crawler for Apple. Products like Siri and Spotlight Suggestions use Applebot."
+    },
+    {
+        "user_agents": [
+            "^Audacious"
+        ],
+        "examples": [
+            "Audacious/3.10.1 neon/0.30.2"
+        ],
+        "device": "pc",
+        "description": "Audacious is an open source audio player.",
+        "info_url": "https://audacious-media-player.org/"
+    },
+    {
+        "user_agents": [
+            "^atc/"
+        ],
+        "app": "Apple Podcasts",
+        "device": "watch",
+        "os": "watchos",
+        "bot": true,
+        "developer_notes": "Verified (via stamping the audio URL with the RSS useragent) as being sourced from Apple Podcasts; and accordingly this is marked as a bot since these downloads are duplicated with the phone.",
+        "examples": [
+            "atc/1.0",
+            "atc/1.0 watchOS/6.2 model/Watch3,3 hwp/t8004 build/17T529 (6; dt:155)",
+            "atc/1.0 watchOS/6.2.8 model/Watch2,3 hwp/t8002 build/17U63 (6; dt:133)",
+            "atc/1.0 watchOS/6.2.8 model/Watch3,3 hwp/t8004 build/17U63 (6; dt:155)",
+            "atc/1.0 watchOS/6.2.8 model/Watch4,2 hwp/t8006 build/17U63 (6; dt:191)",
+            "atc/1.0 watchOS/7.0.2 model/Watch5,10 hwp/t8006 build/18R402 (6; dt:233)",
+            "atc/1.0 watchOS/7.0.2 model/Watch5,11 hwp/t8006 build/18R402 (6; dt:234)",
+            "atc/1.0 watchOS/7.1 model/Watch4,2 hwp/t8006 build/18R590 (6; dt:191)",
+            "atc/1.0 watchOS/7.1 model/Watch4,3 hwp/t8006 build/18R590 (6; dt:192)",
+            "atc/1.0 watchOS/7.1 model/Watch4,4 hwp/t8006 build/18R590 (6; dt:193)",
+            "atc/1.0 watchOS/7.1 model/Watch5,1 hwp/t8006 build/18R590 (6; dt:201)",
+            "atc/1.0 watchOS/7.1 model/Watch5,3 hwp/t8006 build/18R590 (6; dt:202)",
+            "atc/1.0 watchOS/7.1 model/Watch5,4 hwp/t8006 build/18R590 (6; dt:202)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^Podcasts/.*",
+            "^Balados/.*\\(.*\\)",
+            "^Podcasti/.*\\(.*\\)",
+            "^Podcastit/.*\\(.*\\)",
+            "^Podcasturi/.*\\(.*\\)",
+            "^Podcasty/.*\\(.*\\)",
+            "^Podcast’ler/.*\\(.*\\)",
+            "^Podkaster/.*\\(.*\\)",
+            "^Podcaster/.*\\(.*\\)",
+            "^Podcastok/.*\\(.*\\)",
+            "^Подкасти/.*\\(.*\\)",
+            "^Подкасты/.*\\(.*\\)",
+            "^פודקאסטים/.*\\(.*\\)",
+            "^البودكاست/.*\\(.*\\)",
+            "^पॉडकास्ट/.*\\(.*\\)",
+            "^พ็อดคาสท์/.*\\(.*\\)",
+            "^播客/.*\\(.*\\)",
+            "^팟캐스트/.*\\(.*\\)"
+        ],
+        "examples": [
+            "Podcasts/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)",
+            "Podcaster/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
+        ],
+        "app": "Apple Podcasts",
+        "description": "The Apple Podcasts app.",
+        "developer_notes": "This could be on iOS, iPadOS or macOS. Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish."
+    },
+    {
+        "user_agents": [
+            "^Armadillo/1"
+        ],
+        "examples": [
+            "Armadillo/12.19 (Linux;Android 11) ExoPlayerLib/2.17.1"
+        ],
+        "os": "android",
+        "developer_notes": "This is a library, and not an app",
+        "info_url": "https://tech.scribd.com/blog/2021/android-audio-player-tutorial-with-armadillo.html"
+    },
+    {
+        "user_agents": [
+            "^AudioWave/1"
+        ],
+        "app": "AudioWave",
+        "examples": [
+            "AudioWave/1.5 (+https://audiowave.io/; iPhone 15.4)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^AudioWaveBot/1.0"
+        ],
+        "app": "AudioWave feed parser",
+        "examples": [
+            "AudioWaveBot/1.0"
+        ],
+        "info_url": "https://audiowave.io",
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "iPhone.+(?:B|b)rave"
+        ],
+        "app": "Brave",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Castamatic/.+Darwin"
+        ],
+        "app": "Castamatic",
+        "description": "Your new favorite podcast player for iOS devices",
+        "device": "phone",
+        "examples": [
+            "Castamatic/3847 CFNetwork/1240.0.4 Darwin/20.6.0"
+        ],
+        "os": "ios",
+        "info_url": "https://castamatic.com"
+    },
+    {
+        "user_agents": [
+            "(Linux).* CrKey/"
+        ],
+        "app": "Chromecast device",
+        "device": "speaker",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
+            "(Fuchsia).* CrKey/"
+        ],
+        "app": "Google Nest Hub",
+        "device": "speaker",
+        "os": "fuschia"
+    },
+    {
+        "user_agents": [
+            "^clark-crawler2"
+        ],
+        "app": "Clark-Crawler, unknown",
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Deezer/.*Android;",
+            "^DeezerJukebox/.+Android"
+        ],
+        "app": "Deezer",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "Deezer/6.2.2.80 (Android; 9; Mobile; fr) samsung SM-G950F",
+            "Deezer/6.2.3.96 (Android; 10; Mobile; fr) samsung SM-A405FN",
+            "DeezerJukebox/6.2.26.58 (Linux;Android 10) ExoPlayerLib/2.12.1"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=deezer.android.app"
+    },
+    {
+        "user_agents": [
+            "DotBot"
+        ],
+        "app": "DotBot",
+        "examples": [
+            "Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)",
+            "Mozilla/5.0 (compatible; DotBot/1.2; https://opensiteexplorer.org/dotbot; help@moz.com)"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "downcast feed consumer/"
+        ],
+        "app": "Downcast",
+        "examples": [
+            "downcast feed consumer/0.0.175; (mode=dev; id=u2NgjBSPM6; downcast.fm)"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "Xbox.+Edg?/"
+        ],
+        "app": "Edge",
+        "device": "games_console",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "iPhone.+EdgiOS/"
+        ],
+        "app": "Edge",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Macintosh.+MacEdgeClient/"
+        ],
+        "app": "Edge",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "Windows Phone.+Edge?/"
+        ],
+        "app": "Edge",
+        "device": "phone",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "Windows(?!.*(Xbox)).+Edg?/"
+        ],
+        "app": "Edge",
+        "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; WebView/3.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+        ],
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "FacebookBot",
+            "facebookexternalhit/",
+            "podcastbot"
+        ],
+        "bot": true,
+        "app": "Facebook",
+        "info_url": "https://www.facebook.com/externalhit_uatext.php",
+        "developer_notes": "The podcastbot UA appears to be part of Facebook Podcasts onboarding",
+        "examples": [
+            "facebookexternalhit/1.1 ( http://www.facebook.com/externalhit_uatext.php)",
+            "podcastbot"
+        ]
+    },
+    {
+        "user_agents": [
+            "iPhone.+\\[FBAN/FBIO.+\\]"
+        ],
+        "app": "Facebook",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/12.4.8;FBSS/2;FBID/phone;FBLC/de_DE;FBOP/5]"
+        ],
+        "description": "The Facebook app's built-in browser on iPhones."
+    },
+    {
+        "user_agents": [
+            "iOS/Facebook"
+        ],
+        "app": "Facebook",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "iOS/Facebook"
+        ],
+        "developer_notes": "Spotted using a Facebook-exclusive audio feed. Distinct from the above, since it's the actual podcast player.",
+        "description": "The Facebook app's podcast player on iOS."
+    },
+    {
+        "user_agents": [
+            "^FB4A/Facebook"
+        ],
+        "app": "Facebook",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "FB4A/Facebook"
+        ],
+        "developer_notes": "Spotted using a Facebook-exclusive audio feed",
+        "description": "The Facebook app's podcast player on Android."
+    },
+    {
+        "user_agents": [
+            "^WIN "
+        ],
+        "app": "Flash",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "^Fountain.+(iOS|ios)"
+        ],
+        "app": "Fountain",
+        "examples": [
+            "Fountain/0.2.6 iOS https://www.fountain.fm'",
+            "Fountain/0.3.8 ios https://www.fountain.fm"
+        ],
+        "info_url": "https://www.fountain.fm",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Fountain.+(Android|android)"
+        ],
+        "app": "Fountain",
+        "examples": [
+            "Fountain/0.2.6 Android https://www.fountain.fm'",
+            "Fountain/0.3.13 android https://www.fountain.fm"
+        ],
+        "info_url": "https://www.fountain.fm",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Garmin Forerunner"
+        ],
+        "app": "Garmin Forerunner",
+        "developer_notes": "This uses Spotify to transfer audio to compatible watches",
+        "device": "watch",
+        "examples": [
+            "Garmin Forerunner 245 Music/11.60"
+        ]
+    },
+    {
+        "user_agents": [
+            "^Garmin fenix 5X Plus"
+        ],
+        "app": "Garmin fenix 5X",
+        "developer_notes": "This uses Spotify to transfer audio to compatible watches",
+        "device": "watch",
+        "examples": [
+            "Garmin fenix 5X Plus/18.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "Goodpods(.)Android /"
+        ],
+        "examples": [
+            "Goodpods.Android / 2.2.2",
+            "Goodpods.Android / 3.2.9"
+        ],
+        "app": "Goodpods",
+        "os": "android",
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+        "svg": "goodpods.svg"
+    },
+    {
+        "user_agents": [
+            "Goodpods.[iI]OS / \\d+\\.\\d+\\.\\d+"
+        ],
+        "examples": [
+            "Goodpods.iOS / 2.2.2"
+        ],
+        "app": "Goodpods",
+        "os": "ios",
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+        "svg": "goodpods.svg"
+    },
+    {
+        "user_agents": [
+            "Goodpods/\\d+\\.\\d+"
+        ],
+        "examples": [
+            "Goodpods/2.2"
+        ],
+        "app": "Goodpods",
+        "os": "linux",
+        "bot": true,
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+        "svg": "goodpods.svg",
+        "developer_notes": "RSS scraper / podcast verifier. Contact hello at goodpods dot com."
+    },
+    {
+        "user_agents": [
+            "Goodpods/1 CFNetwork"
+        ],
+        "examples": [
+            "Goodpods/1 CFNetwork/1329 Darwin/21.3.0"
+        ],
+        "app": "Goodpods",
+        "os": "ios",
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+        "svg": "goodpods.svg"
+    },
+    {
+        "user_agents": [
+            "^Gumball"
+        ],
+        "examples": [
+            "Gumball.fm Analytics Prefix Checker"
+        ],
+        "app": "Gumball",
+        "bot": true,
+        "description": "An attribution service (known as Gumshoe) from the Gumball network"
+    },
+    {
+        "user_agents": [
+            "^GooglePodcasts/(iPhone|iPad|iPod touch|!Android).*GSA/",
+            "^Podcasts$",
+            "^GooglePodcasts/.*(iPhone|iPad|iPod touch)"
+        ],
+        "app": "Google Podcasts",
+        "description": "Google Podcasts on iOS",
+        "examples": [
+            "GooglePodcasts/2.0.2 iPod_touch/13.4.1 hw/iPod9_1",
+            "GooglePodcasts/2.0.10 iPhone/14.6 hw/iPhone12_1",
+            "GooglePodcasts/2.0.10 iPhone/14.6 hw/iPhone13_3",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (iPod touch; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/601.1"
+        ],
+        "developer_notes": "'GooglePodcasts' is the iOS app, while (?:(?:iPhone|iPad|iPod touch);.+)?GSA/ is used in the Google app when searching and playing podcasts. The first useragent was simply 'Podcasts'.",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "(Android).*GSA/",
+            "^GSA/"
+        ],
+        "app": "Google Podcasts",
+        "os": "android",
+        "description": "Google Podcasts on Android (the app or player)",
+        "examples": [
+            "GSA/13.38.11.26.arm64",
+            "Mozilla/5.0 (Linux; Android 10; Pixel 3a Build/QQ2A.200305.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 GSA/11.2.7.21.arm64",
+            "Mozilla/5.0 (Linux; Android 10; SM-G986U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.75 Mobile Safari/537.36 GSA/11.31.12.21.arm64"
+        ],
+        "developer_notes": "*GSA/ is used in the Google app when searching and playing podcasts, and in the Google Podcasts app"
+    },
+    {
+        "user_agents": [
+            "^(?!Podverse).*Android.*Chrome/(?!.*(Googlebot|CrKey|GSA|Edge|EdgA/))"
+        ],
+        "app": "Google Chrome",
+        "os": "android",
+        "developer_notes": "This won't match Googlebot, a Chromecast device, Google speaker or Google app, or the Podverse app"
+    },
+    {
+        "user_agents": [
+            "Windows.*Chrome/(?!.*(OPR|Edg|Electron|PodFriend/))"
+        ],
+        "app": "Google Chrome",
+        "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+        ],
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "iPhone.+GSA/\\d+"
+        ],
+        "app": "Google Search App",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/166.0.381336632 Mobile/15E148 Safari/604.1"
+        ],
+        "description": "The Google Search App on iPhone."
+    },
+    {
+        "user_agents": [
+            "^Gaana-iOS"
+        ],
+        "app": "Gaana",
+        "os": "ios",
+        "examples": [
+            "Gaana-iOS"
+        ]
+    },
+    {
+        "user_agents": [
+            "^HyperCatcher"
+        ],
+        "app": "HyperCatcher",
+        "device": "phone",
+        "examples": [
+            "HyperCatcher/1"
+        ],
+        "os": "ios",
+        "description": "Newsletters and podcasts together!"
+    },
+    {
+        "user_agents": [
+            "iVooxApp.*iPhone"
+        ],
+        "app": "iVoox",
+        "os": "ios",
+        "examples": [
+            "iVooxApp/3.85 (iPhone; iOS; iOS 15.6.1; d:16910714; 113F)"
+        ],
+        "info_url": "https://www.ivoox.com/"
+    },
+    {
+        "user_agents": [
+            "ivooxApp.*Android",
+            "FileDownloader/"
+        ],
+        "app": "iVoox",
+        "os": "android",
+        "examples": [
+            "ivooxApp/2.281.428_428 (G8341; Android 9; d:420031; E5A4)"
+        ],
+        "info_url": "https://www.ivoox.com/"
+    },
+    {
+        "user_agents": [
+            ".*KAIOS/(?!.*(PodKast))"
+        ],
+        "app": "KAIOS podcast app",
+        "device": "phone",
+        "os": "kaios",
+        "info_url": "https://kaiostech.com",
+        "examples": [
+            "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
+        ],
+        "developer_notes": "This is a standard useragent for KaiOS, the cut-down operating system for mobile phones in developing countries. Watch out - it may also contain Android."
+    },
+    {
+        "user_agents": [
+            ".*PodKast$"
+        ],
+        "app": "PodKast app",
+        "device": "phone",
+        "os": "kaios",
+        "examples": [
+            "Mozilla/5.0 (Mobile; M571M3; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1.2 PodKast",
+            "KaiOS Downloader PodKast"
+        ],
+        "description": "PodKast is a podcast app available for KaiOS smartphones"
+    },
+    {
+        "user_agents": [
+            "^lesindesradios$"
+        ],
+        "app": "Les Indés Radios",
+        "os": "ios",
+        "device": "phone",
+        "description": "Les Indés Radios is a radio app, available on multiple devices and OSs",
+        "info_url": "https://www.lesindesradios.fr/",
+        "examples": [
+            "lesindesradios"
+        ]
+    },
+    {
+        "user_agents": [
+            "^lesindesradios/.*\\(Linux;Android"
+        ],
+        "app": "Les Indés Radios",
+        "os": "android",
+        "device": "phone",
+        "description": "Les Indés Radios is a radio app, available on multiple devices and OSs",
+        "info_url": "https://www.lesindesradios.fr/",
+        "examples": [
+            "lesindesradios/9.1.0 (Linux;Android 8.0.0) ExoPlayerLib/2.9.2",
+            "lesindesradios/9.1.0 (Linux;Android 11) ExoPlayerLib/2.9.2"
+        ]
+    },
+    {
+        "user_agents": [
+            "iPhone.+\\[LinkedInApp\\]"
+        ],
+        "app": "LinkedIn",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [LinkedInApp]"
+        ],
+        "description": "The LinkedIn app's built-in browser on iPhones."
+    },
+    {
+        "user_agents": [
+            "Lisny"
+        ],
+        "app": "Lisny",
+        "os": "android",
+        "examples": [
+            "Lisny"
+        ],
+        "info_url": "https://www.lisny.com",
+        "description": "Lisny is a fast, beautiful and fun listening experience."
+    },
+    {
+        "user_agents": [
+            ".*Neevabot"
+        ],
+        "app": "Neevabot",
+        "bot": true,
+        "info_url": "https://neeva.com/neevabot",
+        "examples": [
+            "Mozilla/5.0 (compatible; Neevabot/1.0; https://neeva.com/neevabot)"
+        ]
+    },
+    {
+        "user_agents": [
+            "NRC Audio/.*Android"
+        ],
+        "examples": [
+            "NRC Audio/2.0.0 (nl.nrc.audio; build:29; Android 12; Sdk:31; Manufacturer:samsung; Model: SM-G975F) OkHttp/4.9.3"
+        ],
+        "description": "NRC Audio",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Opera/.*\\(Macintosh",
+            "Macintosh.*OPR/"
+        ],
+        "app": "Opera",
+        "device": "pc",
+        "os": "macos",
+        "examples": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 OPR/72.0.3815.186"
+        ]
+    },
+    {
+        "user_agents": [
+            "^Overcast/.*iOS"
+        ],
+        "app": "Overcast",
+        "examples": [
+            "Overcast/3.0 (+http://overcast.fm/; iOS podcast app)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Player FM",
+            "^Player%20FM"
+        ],
+        "app": "Player FM",
+        "examples": [
+            "Player%20FM/588 CFNetwork/1121.2.2 Darwin/19.2.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "^ThePodcastApp.*iPhone"
+        ],
+        "app": "The Podcast App",
+        "os": "ios",
+        "device": "phone",
+        "examples": [
+            "ThePodcastApp/6.23.0 (iPhone; iOS 15.6.1; ) player (build 6272; +https://podcast.app/)"
+        ]
+    },
+    {
+        "user_agents": [
+            "iOS.*The Podcast App/",
+            "com.evolve.podcast/",
+            "^ThePodcastApp(?!.*(iPhone))"
+        ],
+        "app": "The Podcast App",
+        "os": "ios",
+        "examples": [
+            "ThePodcastApp/6.28.1 (iPhone; iOS 16.0.2; ) player (build 6391; +https://podcast.app/)",
+            "podcast/2358 iOS/Version 13.5.1 (Build 017F80) The Podcast App/3.22.1",
+            "com.evolve.podcast/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"
+        ],
+        "developer_notes": "The com.evolve version of the useragent is an error, and has been reported to the developers as a bug. Caution: the beginning of their main useragent is similar to Google Podcasts."
+    },
+    {
+        "user_agents": [
+            "^PodcastGuru"
+        ],
+        "app": "Podcast Guru",
+        "os": "android",
+        "info_url": "https://podcastguru.io/",
+        "description": "Podcast Guru is the simple and free podcast player"
+    },
+    {
+        "user_agents": [
+            "PodderBot/"
+        ],
+        "examples": [
+            "PodderBot/1.0"
+        ],
+        "app": "PodderBot",
+        "bot": true,
+        "description": "PodderApp bot",
+        "info_url": "https://www.podderapp.com/",
+        "developer_notes": "PodderApp bot for RSS fetching / verification"
+    },
+    {
+        "user_agents": [
+            "^Podfriend"
+        ],
+        "app": "Podfriend",
+        "examples": [
+            "Podfriend/1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) PodFriend/0.7.11 Chrome/83.0.4103.122 Electron/9.2.0 Safari/537.36"
+        ],
+        "info_url": "https://podfriend.com",
+        "description": "Podfriend Electron app"
+    },
+    {
+        "user_agents": [
+            "^Podurama"
+        ],
+        "app": "Podurama",
+        "description": "Best free cross-platform podcast app",
+        "examples": [
+            "Podurama/4.0.8.1 CFNetwork/1390 Darwin/22.0.0"
+        ],
+        "info_url": "https://podurama.com"
+    },
+    {
+        "user_agents": [
+            "^Procast.+iOS"
+        ],
+        "app": "Procast",
+        "description": "Procast - The Podcast App",
+        "info_url": "https://procast.coderocker.de/",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Podwatch-Pro Crawler"
+        ],
+        "app": "PodwatchPro",
+        "bot": true,
+        "description": "PodwatchPro is a podcast analytics software. This user agent is for crawling podcast data.",
+        "info_url": "https://www.agma-mmc.de/media-analyse/ma-podcast"
+    },
+    {
+        "user_agents": [
+            "^Podopolo"
+        ],
+        "app": "Podopolo",
+        "description": "Listen with passion - connect with purpose",
+        "info_url": "https://podopolo.com/"
+    },
+    {
+        "user_agents": [
+            "^Repod/.+iOS"
+        ],
+        "app": "Repod",
+        "device": "phone",
+        "examples": [
+            "Repod/2.9.0.363 CFNetwork/1240.0.4 Darwin/20.6.0 (iPhone/X iOS/14.7.1)"
+        ],
+        "os": "ios",
+        "info_url": "https://repod.io/",
+        "description": "Repod is a social podcast app that helps creators engage, montetization, and grow their community.",
+        "svg": "repod.svg"
+    },
+    {
+        "user_agents": [
+            "^Repod/.+Android"
+        ],
+        "app": "Repod",
+        "device": "phone",
+        "examples": [
+            "Repod/2.9.0.221 Mozilla/5.0 (Linux; Android 11; Pixel 3 Build/RQ3A.210905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36"
+        ],
+        "os": "android",
+        "info_url": "https://repod.io/",
+        "description": "Repod is a social podcast app that helps creators engage, montetization, and grow their community.",
+        "svg": "repod.svg"
+    },
+    {
+        "user_agents": [
+            "^Roku/DVP-"
+        ],
+        "device": "tv",
+        "os": "roku"
+    },
+    {
+        "user_agents": [
+            "sp-agent"
+        ],
+        "app": "Samsung Free",
+        "examples": [
+            "sp-agent"
+        ],
+        "device": "phone",
+        "os": "android",
+        "info_url": "https://developer.samsung.com/podcasts"
+    },
+    {
+        "user_agents": [
+            "^Spotify/.+iOS"
+        ],
+        "app": "Spotify",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Spotify/8.7.10 iOS/15.3.1 (iPhone13,2)"
+        ]
+    },
+    {
+        "user_agents": [
+            "Macintosh.*AppleWebKit(?!.*(Chrome/|GSA/)).*Safari/(?!.*(AdsBot/))"
+        ],
+        "app": "Safari",
+        "device": "pc",
+        "os": "macos",
+        "examples": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15"
+        ]
+    },
+    {
+        "user_agents": [
+            "iPhone.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS|GSA/)).*Safari/"
+        ],
+        "app": "Safari",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPad.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS|GSA/)).*Safari/"
+        ],
+        "app": "Safari",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Shadow"
+        ],
+        "app": "Shadow",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/shadow/id940127690"
+    },
+    {
+        "user_agents": [
+            "^Slackbot 1.0"
+        ],
+        "app": "Slack",
+        "bot": true,
+        "examples": [
+            "Slackbot 1.0 ( https://api.slack.com/robots)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^Snipd/"
+        ],
+        "app": "Snipd",
+        "os": "ios",
+        "info_url": "https://www.snipd.com/",
+        "examples": [
+            "Snipd/90 CFNetwork/1329 Darwin/21.3.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "Sonnet",
+            "^Simple Podcast Player"
+        ],
+        "app": "Sonnet",
+        "description": "Sonnet is a simple, easy to use podcast app aimed at new listeners",
+        "os": "android",
+        "info_url": "https://sonnet.fm",
+        "examples": [
+            "Simple Podcast Player/1.8 (Linux;Android 12) ExoPlayerLib/2.10.1"
+        ],
+        "svg": "sonnet.svg"
+    },
+    {
+        "user_agents": [
+            "Timpibot/"
+        ],
+        "app": "Timpi search crawler",
+        "bot": true,
+        "examples": [
+            "Timpibot/0.8 ( http://www.timpi.io)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^TuneIn(%20| )Radio(%20| )Pro/.*(CFNetwork/|iPhone)"
+        ],
+        "examples": [
+            "TuneIn Radio Pro/24.2.1; iPhone13,4; iOS/16.1"
+        ],
+        "app": "TuneIn",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
+    },
+    {
+        "user_agents": [
+            "^TuneIn(?!.*(CFNetwork|Android|iPhone|iPad))"
+        ],
+        "examples": [
+            "TuneIn Radio"
+        ],
+        "app": "TuneIn",
+        "info_url": "https://tunein.com/",
+        "developer_notes": "Other versions of this app use many other user agents."
+    },
+    {
+        "user_agents": [
+            "^TuneIn/"
+        ],
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) TuneIn/1.25.0 Chrome/69.0.3497.128 Electron/4.2.8 Safari/537.36"
+        ],
+        "app": "TuneIn",
+        "device": "pc",
+        "info_url": "https://tunein.com/",
+        "developer_notes": "A TuneIn Electron app"
+    },
+    {
+        "user_agents": [
+            "iPhone.*XING"
+        ],
+        "app": "XING",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) ; iPhone/13.6 XING/8.15.2 ttt_webview_iosm"
+        ],
+        "info_url": "https://www.xing.com/",
+        "description": "German version of LinkedIn"
+    },
+    {
+        "user_agents": [
+            "^SoundOn/[\\d.]+s+\\(Linux;Android",
+            "^SoundOn/[^12]\\.d+\\.d+$",
+            "^SoundOn/1\\.[^1][^0-2]?\\.d+$"
+        ],
+        "app": "SoundOn",
+        "device": "phone",
+        "examples": [
+            "SoundOn/1.9.17 (Linux;Android 10) ExoPlayerLib/2.9.4"
+        ],
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^SoundOn/1\\.1[0-2]\\.\\d+$",
+            "^SoundOn/2\\.\\d+\\.\\d+$",
+            "^SoundOn/[\\d.]+s+\\(iOS"
+        ],
+        "app": "SoundOn",
+        "device": "phone",
+        "examples": [
+            "SoundOn/1.10.1",
+            "SoundOn/2.2.0",
+            "SoundOn/2.2.2 (iOS)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^SoundOn/[\\d.]+\\s+\\(bot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Podverse/.*Android Mobile App"
+        ],
+        "app": "Podverse",
+        "device": "phone",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=com.podverse&hl=en_US",
+        "description": "Open source podcast catcher for Android, with clip-sharing, playlists, device syncing and more.",
+        "examples": [
+            "Podverse/Android Mobile App",
+            "Podverse/F-Droid Android Mobile App/",
+            "Podverse/Android Mobile App/Mozilla/5.0 (Linux; Android 12; SM-S134DL Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136 Mobile Safari/537.36"
+        ],
+        "developer_notes": "The standard device user agent was formerly concatenated to the end of the Podverse/Android Mobile App/ user agent."
+    },
+    {
+        "user_agents": [
+            "^Podverse/iOS Mobile App"
+        ],
+        "app": "Podverse",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Podverse/iOS Mobile App",
+            "Podverse/iOS Mobile App/Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/1234"
+        ],
+        "description": "Open source podcast catcher for iOS, with clip-sharing, playlists, device syncing and more.",
+        "info_url": "https://apps.apple.com/us/app/podverse/id1390888454",
+        "developer_notes": "The standard device user agent was formerly concatenated to the end of the Podverse/iOS Mobile App/ user agent."
+    },
+    {
+        "user_agents": [
+            "^Podcast/1."
+        ],
+        "app": "小宇宙",
+        "info_url": "https://www.coolapk.com/apk/app.podcast.cosmos",
+        "description": "Cosmos, a chinese podcast app"
+    },
+    {
+        "user_agents": [
+            "^Podcastindex\\.org/"
+        ],
+        "app": "Podcastindex.org",
+        "bot": true,
+        "svg": "podcast-index.svg",
+        "info_url": "https://podcastindex.org/",
+        "examples": [
+            "Podcastindex.org/v0.3.3 (Aggrivate)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^sp-agent"
+        ],
+        "app": "Samsung Podcasts",
+        "info_url": "https://developer.samsung.com/podcasts",
+        "examples": [
+            "sp-agent"
+        ]
+    },
+    {
+        "user_agents": [
+            "^MixerBox/"
+        ],
+        "app": "Mixerbox",
+        "info_url": "https://www.mixerbox.com/",
+        "examples": [
+            "MixerBox/869 CFNetwork/1300.1 Darwin/21.0.0"
+        ],
+        "developer_notes": "This app appears to use a RSS useragent of AmazonCloudFront (or it may simply be blank)"
+    },
+    {
+        "user_agents": [
+            "^Tumult"
+        ],
+        "app": "Tumult",
+        "description": "Et le podcast devient social",
+        "device": "phone",
+        "examples": [
+            "Tumult"
+        ],
+        "info_url": "https://tumult-podcast.com/"
+    },
+    {
+        "user_agents": [
+            "^Vodacast"
+        ],
+        "app": "Vodacast",
+        "description": "Podcasts with deeper digital stories",
+        "device": "phone",
+        "info_url": "https://auddiainc.com/vodacast-app/"
+    },
+    {
+        "user_agents": [
+            "^Palco MP3"
+        ],
+        "app": "Palco MP3",
+        "info_url": "https://www.palcomp3.com.br/",
+        "examples": [
+            "Palco MP3/3.13.18 (Linux;Android 11) ExoPlayerLib/2.11.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "^TheEconomist-Darwin-android"
+        ],
+        "app": "Economist Espresso",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "TheEconomist-Darwin-android-2.1.1-master-2999-2001024"
+        ]
+    },
+    {
+        "user_agents": [
+            "^TheEconomist-Darwin-ios"
+        ],
+        "app": "Economist Espresso",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "TheEconomist-Darwin-ios-2.1.1-master-2999-2001024"
+        ]
+    },
+    {
+        "user_agents": [
+            "^AudioWave iOS"
+        ],
+        "app": "AudioWave",
+        "device": "phone",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/be/app/audiowave-podcast-player/id1602776751",
+        "examples": [
+            "AudioWave iOS"
+        ]
+    },
+    {
+        "user_agents": [
+            "iOS VG Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS VG Hermes/90.0.0 _app_"
+        ],
+        "app": "VG iOS app",
+        "description": "VG iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Aftonbladet Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Aftonbladet Hermes/90.0.0 _app_"
+        ],
+        "app": "Aftonbladet iOS app",
+        "description": "Aftonbladet iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Sportbladet Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Sportbladet Hermes/90.0.0 _app_"
+        ],
+        "app": "Sportbladet iOS app",
+        "description": "Sportbladet iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS AP Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS AP Hermes/90.0.0 _app_"
+        ],
+        "app": "Aftenposten iOS app",
+        "description": "Aftenposten iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS BT Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS BT Hermes/90.0.0 _app_"
+        ],
+        "app": "Bergens Tidende iOS app",
+        "description": "Bergens Tidende iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS SA Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS SA Hermes/90.0.0 _app_"
+        ],
+        "app": "Stavanger Aftenblad iOS app",
+        "description": "Stavanger Aftenblad iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS SvD Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS SvD Hermes/90.0.0 _app_"
+        ],
+        "app": "Svenska Dagbladet iOS app",
+        "description": "Svenska Dagbladet iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS E24 Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS E24 Hermes/90.0.0 _app_"
+        ],
+        "app": "E24 iOS app",
+        "description": "E24 iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Askoyvaringen Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Askoyvaringen Hermes/90.0.0 _app_"
+        ],
+        "app": "Askoyvaringen iOS app",
+        "description": "Askoyvaringen iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Bygdanytt Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Bygdanytt Hermes/90.0.0 _app_"
+        ],
+        "app": "Bygdanytt iOS app",
+        "description": "Bygdanytt iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Strilen Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Strilen Hermes/90.0.0 _app_"
+        ],
+        "app": "Strilen iOS app",
+        "description": "Strilen iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Vestnytt Hermes/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Vestnytt Hermes/90.0.0 _app_"
+        ],
+        "app": "Vestnytt iOS app",
+        "description": "Vestnytt iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Android VG Hermes/"
+        ],
+        "examples": [
+            "Android VG Hermes/1000094692 app vg_app_ VG/Snarvei/1000094692 VG-App"
+        ],
+        "app": "VG Android app",
+        "description": "VG Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Android Aftonbladet Hermes/"
+        ],
+        "examples": [
+            "Android Aftonbladet Hermes/1000094692 _app_"
+        ],
+        "app": "Aftonbladet Android app",
+        "description": "Aftonbladet Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Android Sportbladet Hermes/"
+        ],
+        "examples": [
+            "Android Sportbladet Hermes/1000094692 _app_"
+        ],
+        "app": "Sportbladet Android app",
+        "description": "Sportbladet Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Android AP Hermes/"
+        ],
+        "examples": [
+            "Android AP Hermes/1000094692 _app_"
+        ],
+        "app": "Aftenposten Android app",
+        "description": "Aftenposten Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Android BT Hermes/"
+        ],
+        "examples": [
+            "Android BT Hermes/1000094692 _app_"
+        ],
+        "app": "Bergens Tidende Android app",
+        "description": "Bergens Tidende Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Android SA Hermes/"
+        ],
+        "examples": [
+            "Android SA Hermes/1000094692 _app_"
+        ],
+        "app": "Stavanger Aftenblad Android app",
+        "description": "Stavanger Aftenblad Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "SvD Hermes/"
+        ],
+        "examples": [
+            "SvD Hermes/999999999 _app_"
+        ],
+        "app": "Svenska Dagbladet Android app",
+        "description": "Svenska Dagbladet Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Android E24 Hermes/"
+        ],
+        "examples": [
+            "Android E24 Hermes/1000094692 _app_"
+        ],
+        "app": "E24 Android app",
+        "description": "E24 Android app",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Riddler "
+        ],
+        "examples": [
+            "Riddler (http://riddler.io/about)"
+        ],
+        "app": "F-Secure Riddler",
+        "description": "an online research project which investigates algorithms for mapping the topology of the Internet",
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^RSStT"
+        ],
+        "examples": [
+            "RSStT/2.2.1 RSS Reader"
+        ],
+        "app": "RSS to Telegram",
+        "description": "an RSS to Telegram bot",
+        "info_url": "https://apps.apple.com/be/app/audiowave-podcast-player/id1602776751",
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Newsly"
+        ],
+        "examples": [
+            "Newsly"
+        ],
+        "app": "Newsly",
+        "device": "phone",
+        "description": "Stop Scrolling, Start Listening.",
+        "info_url": "https://www.newsly.me/"
+    },
+    {
+        "user_agents": [
+            "KaiOS Downloader"
+        ],
+        "examples": [
+            "KaiOS Downloader"
+        ],
+        "os": "kaios",
+        "device": "phone",
+        "developer_notes": "This is the KaiOS Downloader library, and this could refer to any app on this platform"
+    },
+    {
+        "user_agents": [
+            "CPod/"
+        ],
+        "examples": [
+            "CPod/1.27.1 (github.com/z-------------)"
+        ],
+        "info_url": "https://github.com/z-------------/CPod",
+        "app": "CPod",
+        "device": "pc",
+        "description": "A simple, beautiful podcast app, for Windows, MacOS and Linux"
+    },
+    {
+        "user_agents": [
+            "DataForSeoBot/"
+        ],
+        "examples": [
+            "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)"
+        ],
+        "info_url": "https://dataforseo.com/dataforseo-bot",
+        "app": "DataforSEO",
+        "bot": true,
+        "description": "Working on the biggest available backlink database on the web that every single member of the community, including you, can use and benefit from."
+    },
+    {
+        "user_agents": [
+            "Bullhorn/"
+        ],
+        "examples": [
+            "Bullhorn/1.0 (+http://bullhorn.fm/)"
+        ],
+        "info_url": "http://bullhorn.fm/",
+        "app": "Bullhorn"
+    },
+    {
+        "user_agents": [
+            "gPodder/.*Linux"
+        ],
+        "examples": [
+            "gPodder/3.10.21 (+http://gpodder.org/) Linux",
+            "gPodder/3.10.15 (+http://gpodder.org/) Linux/5.4.0-74-generic",
+            "gPodder/3.10.15 (+http://gpodder.org/) Linux/5.4.0-90-generic",
+            "gPodder/3.10.17 (+http://gpodder.org/) Linux/5.11.0-49-generic"
+        ],
+        "info_url": "http://gpodder.org/",
+        "app": "gPodder",
+        "device": "pc"
+    },
+    {
+        "user_agents": [
+            "AirableBot-Podcast/"
+        ],
+        "examples": [
+            "AirableBot-Podcast/1.0 (+https//www.airablenow.com)"
+        ],
+        "info_url": "https//www.airablenow.com",
+        "bot": true,
+        "description": "An aggregator of internet radio and podcasts, for connected devices."
+    },
+    {
+        "user_agents": [
+            "Podcorn/"
+        ],
+        "examples": [
+            "Podcorn/1.0"
+        ],
+        "info_url": "https://podcorn.com/",
+        "bot": true,
+        "description": "The leading podcast influencer marketplace. Connecting unique voices to unique brands for native advertising."
+    },
+    {
+        "user_agents": [
+            "RedCircle"
+        ],
+        "examples": [
+            "RedCircle"
+        ],
+        "info_url": "https://redcircle.com/",
+        "bot": true,
+        "app": "RedCircle",
+        "description": "A platform for podcasts and brands to scale their message."
+    },
+    {
+        "user_agents": [
+            "ProCast"
+        ],
+        "examples": [
+            "ProCast/1 CFNetwork/1240.0.4 Darwin/20.6.0"
+        ],
+        "info_url": "https://podcast-app.de/",
+        "description": "The new generation of Podcast player."
+    },
+    {
+        "user_agents": [
+            "AnchorImport"
+        ],
+        "examples": [
+            "AnchorImport/1.0"
+        ],
+        "description": "Anchor's tool for importing podcasts",
+        "bot": true,
+        "developer_notes": "This useragent is used during a user importing a podcast to the Anchor platform"
+    },
+    {
+        "user_agents": [
+            "^Podio/"
+        ],
+        "examples": [
+            "Podio/1.0"
+        ],
+        "description": "Podcasts + Radio = Podio",
+        "info_url": "https://podio.radio/",
+        "bot": true,
+        "developer_notes": "This useragent appears to download and cache audio"
+    },
+    {
+        "user_agents": [
+            "^Playapod"
+        ],
+        "app": "Playapod",
+        "examples": [
+            "Playapod/2.4.11"
+        ],
+        "description": "Best Cross-Platform Podcast and News App",
+        "info_url": "https://playapod.com/"
+    },
+    {
+        "user_agents": [
+            "Zune/"
+        ],
+        "app": "Zune",
+        "examples": [
+            "Zune/4.8"
+        ]
+    },
+    {
+        "user_agents": [
+            "Headliner/"
+        ],
+        "app": "Headliner",
+        "examples": [
+            "Headliner/1.0.0 +https://headliner.app"
+        ],
+        "bot": true,
+        "developer_notes": "A tool that takes audio to reformat it for video platforms"
+    },
+    {
+        "user_agents": [
+            "Iframely/"
+        ],
+        "app": "Iframely",
+        "examples": [
+            "Iframely/1.3.1 (+https://iframely.com/docs/about)"
+        ],
+        "info_url": "https://iframely.com/docs/about"
+    },
+    {
+        "user_agents": [
+            "^(radio\\.[a-zA-Z]{2,3}|GetPodcast) [0-9]+.[0-9]+.[0-9]+ \\([a-zA-Z]+;( iPhone OS)? .+; .+\\)$"
+        ],
+        "app": "radio.net",
+        "device": "phone",
+        "os": "ios",
+        "info_url": "https://www.radio.net/",
+        "examples": [
+            "radio.fr 5.6.22 (iPhone; iPhone OS 16.4; fr_FR)",
+            "radio.de 5.6.22 (iPad; iPhone OS 16.4; de_DE)",
+            "radio.de 5.6.22 (iPhone; iPhone OS 16.4; de_DE)",
+            "radio.net 5.7.3 (iPhone; iPhone OS 17.0.1; fr_FR)",
+            "GetPodcast 5.6.22 (iPhone; iPhone OS 16.4; de_DE)",
+            "GetPodcast 5.6.22 (iPhone; 16.4; de_DE)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^(radio\\.[a-zA-Z]{2,3}|GetPodcast)( |\\/)[0-9]+(\\.[0-9]+){3} \\([a-zA-Z]+;( ?(Android))? [\\.\\d]+(; [a-z]{1,3}(\\_|\\-)[a-zA-Z]{2,4})?\\)( ExoPlayerLib\\/[\\.\\d].+)?$"
+        ],
+        "app": "radio.net",
+        "device": "phone",
+        "os": "android",
+        "info_url": "https://www.radio.net/",
+        "examples": [
+            "radio.de/5.10.5.3 (Linux; 13) ExoPlayerLib/2.18.2",
+            "radio.de/5.10.3.0 (Linux;Android 13) ExoPlayerLib/2.18.2",
+            "radio.de/5.10.5.3 (Linux; Android 13) ExoPlayerLib/2.18.2",
+            "radio.de/5.10.5.3 (Linux; Android 13; de_DE) ExoPlayerLib/2.18.2",
+            "radio.de/5.10.5.3 (Linux; Android 13; zn-Hans) ExoPlayerLib/2.18.2",
+            "GetPodcast/5.10.5.3 (Linux; Android 13; de_DE) ExoPlayerLib/2.18.2"
+        ]
+    },
+    {
+        "user_agents": [
+            "^SYOK.+(iOS|Darwin)"
+        ],
+        "app": "SYOK",
+        "device": "phone",
+        "os": "ios",
+        "info_url": "https://syok.my/",
+        "examples": [
+            "SYOK/965 CFNetwork/1406.0.4 Darwin/22.4.0"
+        ]
     }
 ]
